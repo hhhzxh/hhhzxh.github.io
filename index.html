@@ -91,7 +91,55 @@
     
     <div class="e-content article-entry" itemprop="articleBody">
       
-        
+        <h2 id="常见编码"><a href="#常见编码" class="headerlink" title="常见编码"></a>常见编码</h2><h3 id="Base家族"><a href="#Base家族" class="headerlink" title="Base家族"></a>Base家族</h3><p>base系列的编码是以编码数量的划分</p>
+<ul>
+<li>Base64编码要求把3个8位字节转化为4个6位字节，之后在6位的前面补两个0，形成8位-字节的形式</li>
+</ul>
+<p><img src="E:\8fd4e6ae698812a20d4a405fbbfcdcc8.png"></p>
+<ul>
+<li><p>Base64：</p>
+<p>​	包含大写字母（A-Z），小写字母（a-z），数字（0-9）以及+&#x2F;；</p>
+</li>
+<li><p>Base32：</p>
+<p>​	只有大写字母（A-Z）和数字234567；</p>
+</li>
+<li><p>Base16：</p>
+<p>​	数字（0-9），字母（ABCDEF）</p>
+</li>
+<li><p>判断base16，base32，base64：</p>
+<ul>
+<li>看是否有符号，base64和base32都以“&#x3D;”作为空白补足符符号，如果结尾没有“&#x3D;”，则有可能是base16。如果出现了 + 和 &#x2F; ，那么一定是base64。</li>
+<li>看大小写字母，如果有大写有小写就一定是base64。如果全部出现大写的情况就看具体字母有没有F之后的字母出现，因为base16就是16进制，字母部分只到F。</li>
+</ul>
+</li>
+</ul>
+<h3 id="摩尔斯电码"><a href="#摩尔斯电码" class="headerlink" title="摩尔斯电码"></a>摩尔斯电码</h3><p>莫尔斯电码主要由以下5种它的代码组成：</p>
+<ul>
+<li>点（.）</li>
+<li>划（-）</li>
+<li>每个字符间短的停顿（通常用空格表示停顿）</li>
+<li>每个词之间中等的停顿（通常用&#x2F;划分）</li>
+<li>以及句子之间长的停顿</li>
+</ul>
+<h3 id="Url编码"><a href="#Url编码" class="headerlink" title="Url编码"></a>Url编码</h3><p>​	URL地址规定了常用的数字，字母可以直接使用，另外一批作为特殊用户字符也可以直接用（&#x2F;,:@等），剩下的其他所有字符必须通过%xx编码处理。</p>
+<h3 id="JSFuck"><a href="#JSFuck" class="headerlink" title="JSFuck"></a>JSFuck</h3><p>​	jsfuck源于一门编程语言brainfuck，其中主要思想就是只使用8种特定的符号来编写代码。而jsfuck也是沿用了这个思想，它仅仅使用6种符号来编写代码。它们分别是（、）、+、[、]、！。</p>
+<h3 id="AAEncode"><a href="#AAEncode" class="headerlink" title="AAEncode"></a>AAEncode</h3><h5 id="什么是AAEncode？"><a href="#什么是AAEncode？" class="headerlink" title="什么是AAEncode？"></a>什么是AAEncode？</h5><p>​	AAEncode是js加密的一种编码，可以把文字加密成表情包，例如“</p>
+<h3 id="XXEncode"><a href="#XXEncode" class="headerlink" title="XXEncode"></a>XXEncode</h3><ul>
+<li>XXencode将输入文本以三个字节为单位进行编码</li>
+<li>如果最后剩下的资料少于三个字节，不够的部分用零补齐</li>
+<li>这三个字节共有24个Bit，以6bit为单位分为4个组，每个组以十进制来表示所出现的数值只会落在0到63之间。以所对应值的位置字符代替。它所选择的可打印字符一共64个字符。</li>
+<li>根base64打印字符相比，就是XXencode多了一个”-“字符，少一个”&#x2F;“</li>
+</ul>
+<h3 id="shellcode编码"><a href="#shellcode编码" class="headerlink" title="shellcode编码"></a>shellcode编码</h3><ul>
+<li>shellcode是一段利用软件漏洞而执行的代码，shellcode为”16进制“的机器码(每个字符的16进制前加一个“&#x2F;”)</li>
+<li>shellcode可以按照攻击者执行的位置分为本地shellcode和远程shellcode<ul>
+<li>本地：本地运行的shellcode经常用于利用软件漏洞提升权限。比如在LInux下由普通权限提升至root权限</li>
+<li>远程：利用软件漏洞获得特定的shellcode，再经由C或python编写远程攻击程序，进而取得对方电脑的root权限</li>
+</ul>
+</li>
+</ul>
+<h3 id="敲击码（Tap-code）"><a href="#敲击码（Tap-code）" class="headerlink" title="敲击码（Tap code）"></a>敲击码（Tap code）</h3><p>基于5 x 5方格波利比奥斯方阵来实现的，不同点是用K字母被整合到C中。 </p>
+
       
     </div>
     <footer class="article-footer">
