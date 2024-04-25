@@ -1,101 +1,46 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <meta charset="utf-8">
-  
-  
-  <title>编码 | Hexo</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="常见编码Base家族base系列的编码是以编码数量的划分  Base64编码要求把3个8位字节转化为4个6位字节，之后在6位的前面补两个0，形成8位-字节的形式    Base64： ​	包含大写字母（A-Z），小写字母（a-z），数字（0-9）以及+&#x2F;；  Base32： ​	只有大写字母（A-Z）和数字234567；  Base16： ​	数字（0-9），字母（ABCDEF）  判断">
+<!DOCTYPE html><html lang="zh-CN"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="format-detection" content="telephone=no"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black"><link rel="icon" href="/images/icons/favicon-16x16.png?v=2.8.0" type="image/png" sizes="16x16"><link rel="icon" href="/images/icons/favicon-32x32.png?v=2.8.0" type="image/png" sizes="32x32"><meta name="description" content="常见编码                           Base家族       base系列的编码是以编码数量的划分  Base64编码要求把3个8位字节转化为4个6位字节，之后在6位的前面补两个0，形成8位-字节的形式    Base64： ​	包含大写字母（A-Z），小写字母（a-z），数字（0-9）以及+&#x2F;；  Base32： ​	只">
 <meta property="og:type" content="article">
 <meta property="og:title" content="编码">
 <meta property="og:url" content="http://example.com/2024/04/21/%E7%BC%96%E7%A0%81/index.html">
-<meta property="og:site_name" content="Hexo">
-<meta property="og:description" content="常见编码Base家族base系列的编码是以编码数量的划分  Base64编码要求把3个8位字节转化为4个6位字节，之后在6位的前面补两个0，形成8位-字节的形式    Base64： ​	包含大写字母（A-Z），小写字母（a-z），数字（0-9）以及+&#x2F;；  Base32： ​	只有大写字母（A-Z）和数字234567；  Base16： ​	数字（0-9），字母（ABCDEF）  判断">
-<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="myblog">
+<meta property="og:description" content="常见编码                           Base家族       base系列的编码是以编码数量的划分  Base64编码要求把3个8位字节转化为4个6位字节，之后在6位的前面补两个0，形成8位-字节的形式    Base64： ​	包含大写字母（A-Z），小写字母（a-z），数字（0-9）以及+&#x2F;；  Base32： ​	只">
+<meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="e:\8fd4e6ae698812a20d4a405fbbfcdcc8.png">
 <meta property="article:published_time" content="2024-04-21T14:31:20.000Z">
 <meta property="article:modified_time" content="2024-04-21T14:33:23.279Z">
-<meta property="article:author" content="John Doe">
+<meta property="article:author" content="zxh">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="e:\8fd4e6ae698812a20d4a405fbbfcdcc8.png">
-  
-    <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
-  
-  
-    <link rel="shortcut icon" href="/favicon.png">
-  
-  
-  
-<link rel="stylesheet" href="/css/style.css">
+<meta name="twitter:image" content="e:\8fd4e6ae698812a20d4a405fbbfcdcc8.png"><title>编码 | myblog</title><link ref="canonical" href="http://example.com/2024/04/21/%E7%BC%96%E7%A0%81/"><link rel="dns-prefetch" href="https://cdn.jsdelivr.net"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.12.1/css/all.min.css" type="text/css"><link rel="stylesheet" href="/css/index.css?v=2.8.0"><link rel="stylesheet" href="css/custom.css"><script>var Stun = window.Stun || {};
+var CONFIG = {
+  root: '/',
+  algolia: undefined,
+  assistSearch: undefined,
+  fontIcon: {"prompt":{"success":"fas fa-check-circle","info":"fas fa-arrow-circle-right","warning":"fas fa-exclamation-circle","error":"fas fa-times-circle"},"copyBtn":"fas fa-copy"},
+  sidebar: {"offsetTop":"20px","tocMaxDepth":6},
+  header: {"enable":true,"showOnPost":true,"scrollDownIcon":false},
+  postWidget: {"endText":true},
+  nightMode: {"enable":true},
+  back2top: {"enable":true},
+  codeblock: {"style":"default","highlight":"light","wordWrap":false},
+  reward: false,
+  fancybox: false,
+  zoomImage: {"gapAside":"20px"},
+  galleryWaterfall: undefined,
+  lazyload: false,
+  pjax: undefined,
+  externalLink: {"icon":{"enable":true,"name":"fas fa-external-link-alt"}},
+  shortcuts: undefined,
+  prompt: {"copyButton":"复制","copySuccess":"复制成功","copyError":"复制失败"},
+  sourcePath: {"js":"js","css":"css","images":"images"},
+};
 
-  
-    
-<link rel="stylesheet" href="/fancybox/jquery.fancybox.min.css">
-
-  
-  
-<meta name="generator" content="Hexo 7.2.0"></head>
-
-<body>
-  <div id="container">
-    <div id="wrap">
-      <header id="header">
-  <div id="banner"></div>
-  <div id="header-outer" class="outer">
-    <div id="header-title" class="inner">
-      <h1 id="logo-wrap">
-        <a href="/" id="logo">Hexo</a>
-      </h1>
+window.CONFIG = CONFIG;</script><meta name="generator" content="Hexo 7.2.0"></head><body><div class="container" id="container"><header class="header" id="header"><div class="header-inner"><nav class="header-nav header-nav--fixed"><div class="header-nav-inner"><div class="header-nav-menubtn"><i class="fas fa-bars"></i></div><div class="header-nav-menu"><div class="header-nav-menu-item"><a class="header-nav-menu-item__link" href="/"><span class="header-nav-menu-item__icon"><i class="fas fa-home"></i></span><span class="header-nav-menu-item__text">首页</span></a></div><div class="header-nav-menu-item"><a class="header-nav-menu-item__link" href="/archives/"><span class="header-nav-menu-item__icon"><i class="fas fa-folder-open"></i></span><span class="header-nav-menu-item__text">归档</span></a></div></div><div class="header-nav-mode"><div class="mode"><div class="mode-track"><span class="mode-track-moon"></span><span class="mode-track-sun"></span></div><div class="mode-thumb"></div></div></div></div></nav><div class="header-banner"><div class="header-banner-info"><div class="header-banner-info__title">Hello Stun</div><div class="header-banner-info__subtitle">An elegant theme for Hexo</div></div></div></div></header><main class="main" id="main"><div class="main-inner"><div class="content-wrap" id="content-wrap"><div class="content" id="content"><!-- Just used to judge whether it is an article page--><div id="is-post"></div><div class="post"><header class="post-header"><h1 class="post-title">编码</h1><div class="post-meta"><span class="post-meta-item post-meta-item--createtime"><span class="post-meta-item__icon"><i class="far fa-calendar-plus"></i></span><span class="post-meta-item__info">发表于</span><span class="post-meta-item__value">2024-04-21</span></span><span class="post-meta-item post-meta-item--updatetime"><span class="post-meta-item__icon"><i class="far fa-calendar-check"></i></span><span class="post-meta-item__info">更新于</span><span class="post-meta-item__value">2024-04-21</span></span></div></header><div class="post-body">
+        <h2 id="常见编码"   >
+          <a href="#常见编码" class="heading-link"><i class="fas fa-link"></i></a><a href="#常见编码" class="headerlink" title="常见编码"></a>常见编码</h2>
       
-    </div>
-    <div id="header-inner" class="inner">
-      <nav id="main-nav">
-        <a id="main-nav-toggle" class="nav-icon"><span class="fa fa-bars"></span></a>
-        
-          <a class="main-nav-link" href="/">Home</a>
-        
-          <a class="main-nav-link" href="/archives">Archives</a>
-        
-      </nav>
-      <nav id="sub-nav">
-        
-        
-          <a class="nav-icon" href="/atom.xml" title="RSS Feed"><span class="fa fa-rss"></span></a>
-        
-        <a class="nav-icon nav-search-btn" title="Search"><span class="fa fa-search"></span></a>
-      </nav>
-      <div id="search-form-wrap">
-        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://example.com"></form>
-      </div>
-    </div>
-  </div>
-</header>
-
-      <div class="outer">
-        <section id="main"><article id="post-编码" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
-  <div class="article-meta">
-    <a href="/2024/04/21/%E7%BC%96%E7%A0%81/" class="article-date">
-  <time class="dt-published" datetime="2024-04-21T14:31:20.000Z" itemprop="datePublished">2024-04-21</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 class="p-name article-title" itemprop="headline name">
-      编码
-    </h1>
-  
-
-      </header>
-    
-    <div class="e-content article-entry" itemprop="articleBody">
-      
-        <h2 id="常见编码"><a href="#常见编码" class="headerlink" title="常见编码"></a>常见编码</h2><h3 id="Base家族"><a href="#Base家族" class="headerlink" title="Base家族"></a>Base家族</h3><p>base系列的编码是以编码数量的划分</p>
+        <h3 id="Base家族"   >
+          <a href="#Base家族" class="heading-link"><i class="fas fa-link"></i></a><a href="#Base家族" class="headerlink" title="Base家族"></a>Base家族</h3>
+      <p>base系列的编码是以编码数量的划分</p>
 <ul>
 <li>Base64编码要求把3个8位字节转化为4个6位字节，之后在6位的前面补两个0，形成8位-字节的形式</li>
 </ul>
@@ -117,7 +62,10 @@
 </ul>
 </li>
 </ul>
-<h3 id="摩尔斯电码"><a href="#摩尔斯电码" class="headerlink" title="摩尔斯电码"></a>摩尔斯电码</h3><p>莫尔斯电码主要由以下5种它的代码组成：</p>
+
+        <h3 id="摩尔斯电码"   >
+          <a href="#摩尔斯电码" class="heading-link"><i class="fas fa-link"></i></a><a href="#摩尔斯电码" class="headerlink" title="摩尔斯电码"></a>摩尔斯电码</h3>
+      <p>莫尔斯电码主要由以下5种它的代码组成：</p>
 <ul>
 <li>点（.）</li>
 <li>划（-）</li>
@@ -125,16 +73,34 @@
 <li>每个词之间中等的停顿（通常用&#x2F;划分）</li>
 <li>以及句子之间长的停顿</li>
 </ul>
-<h3 id="Url编码"><a href="#Url编码" class="headerlink" title="Url编码"></a>Url编码</h3><p>​	URL地址规定了常用的数字，字母可以直接使用，另外一批作为特殊用户字符也可以直接用（&#x2F;,:@等），剩下的其他所有字符必须通过%xx编码处理。</p>
-<h3 id="JSFuck"><a href="#JSFuck" class="headerlink" title="JSFuck"></a>JSFuck</h3><p>​	jsfuck源于一门编程语言brainfuck，其中主要思想就是只使用8种特定的符号来编写代码。而jsfuck也是沿用了这个思想，它仅仅使用6种符号来编写代码。它们分别是（、）、+、[、]、！。</p>
-<h3 id="AAEncode"><a href="#AAEncode" class="headerlink" title="AAEncode"></a>AAEncode</h3><h5 id="什么是AAEncode？"><a href="#什么是AAEncode？" class="headerlink" title="什么是AAEncode？"></a>什么是AAEncode？</h5><p>​	AAEncode是js加密的一种编码，可以把文字加密成表情包，例如“</p>
-<h3 id="XXEncode"><a href="#XXEncode" class="headerlink" title="XXEncode"></a>XXEncode</h3><ul>
+
+        <h3 id="Url编码"   >
+          <a href="#Url编码" class="heading-link"><i class="fas fa-link"></i></a><a href="#Url编码" class="headerlink" title="Url编码"></a>Url编码</h3>
+      <p>​	URL地址规定了常用的数字，字母可以直接使用，另外一批作为特殊用户字符也可以直接用（&#x2F;,:@等），剩下的其他所有字符必须通过%xx编码处理。</p>
+
+        <h3 id="JSFuck"   >
+          <a href="#JSFuck" class="heading-link"><i class="fas fa-link"></i></a><a href="#JSFuck" class="headerlink" title="JSFuck"></a>JSFuck</h3>
+      <p>​	jsfuck源于一门编程语言brainfuck，其中主要思想就是只使用8种特定的符号来编写代码。而jsfuck也是沿用了这个思想，它仅仅使用6种符号来编写代码。它们分别是（、）、+、[、]、！。</p>
+
+        <h3 id="AAEncode"   >
+          <a href="#AAEncode" class="heading-link"><i class="fas fa-link"></i></a><a href="#AAEncode" class="headerlink" title="AAEncode"></a>AAEncode</h3>
+      
+        <h5 id="什么是AAEncode？"   >
+          <a href="#什么是AAEncode？" class="heading-link"><i class="fas fa-link"></i></a><a href="#什么是AAEncode？" class="headerlink" title="什么是AAEncode？"></a>什么是AAEncode？</h5>
+      <p>​	AAEncode是js加密的一种编码，可以把文字加密成表情包，例如“</p>
+
+        <h3 id="XXEncode"   >
+          <a href="#XXEncode" class="heading-link"><i class="fas fa-link"></i></a><a href="#XXEncode" class="headerlink" title="XXEncode"></a>XXEncode</h3>
+      <ul>
 <li>XXencode将输入文本以三个字节为单位进行编码</li>
 <li>如果最后剩下的资料少于三个字节，不够的部分用零补齐</li>
 <li>这三个字节共有24个Bit，以6bit为单位分为4个组，每个组以十进制来表示所出现的数值只会落在0到63之间。以所对应值的位置字符代替。它所选择的可打印字符一共64个字符。</li>
 <li>根base64打印字符相比，就是XXencode多了一个”-“字符，少一个”&#x2F;“</li>
 </ul>
-<h3 id="shellcode编码"><a href="#shellcode编码" class="headerlink" title="shellcode编码"></a>shellcode编码</h3><ul>
+
+        <h3 id="shellcode编码"   >
+          <a href="#shellcode编码" class="heading-link"><i class="fas fa-link"></i></a><a href="#shellcode编码" class="headerlink" title="shellcode编码"></a>shellcode编码</h3>
+      <ul>
 <li>shellcode是一段利用软件漏洞而执行的代码，shellcode为”16进制“的机器码(每个字符的16进制前加一个“&#x2F;”)</li>
 <li>shellcode可以按照攻击者执行的位置分为本地shellcode和远程shellcode<ul>
 <li>本地：本地运行的shellcode经常用于利用软件漏洞提升权限。比如在LInux下由普通权限提升至root权限</li>
@@ -142,128 +108,18 @@
 </ul>
 </li>
 </ul>
-<h3 id="敲击码（Tap-code）"><a href="#敲击码（Tap-code）" class="headerlink" title="敲击码（Tap code）"></a>敲击码（Tap code）</h3><p>基于5 x 5方格波利比奥斯方阵来实现的，不同点是用K字母被整合到C中。 </p>
 
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://example.com/2024/04/21/%E7%BC%96%E7%A0%81/" data-id="clv9mmf470000h4vy2lz533hx" data-title="编码" class="article-share-link"><span class="fa fa-share">Share</span></a>
-      
-      
-      
-    </footer>
-  </div>
-  
-    
-<nav id="article-nav">
-  
-    <a href="/2024/04/21/%E5%AE%89%E8%A3%85hexo%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%9A%84%E6%B5%81%E7%A8%8B/" id="article-nav-newer" class="article-nav-link-wrap">
-      <strong class="article-nav-caption">Newer</strong>
-      <div class="article-nav-title">
-        
-          安装hexo个人博客的流程
-        
-      </div>
-    </a>
-  
-  
-    <a href="/2024/04/21/hello-world/" id="article-nav-older" class="article-nav-link-wrap">
-      <strong class="article-nav-caption">Older</strong>
-      <div class="article-nav-title">Hello World</div>
-    </a>
-  
-</nav>
-
-  
-</article>
-
-
-</section>
-        
-          <aside id="sidebar">
-  
-    
-
-  
-    
-
-  
-    
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">Archives</h3>
-    <div class="widget">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2024/04/">April 2024</a></li></ul>
-    </div>
-  </div>
-
-
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">Recent Posts</h3>
-    <div class="widget">
-      <ul>
-        
-          <li>
-            <a href="/2024/04/21/%E5%AE%89%E8%A3%85hexo%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%9A%84%E6%B5%81%E7%A8%8B/">安装hexo个人博客的流程</a>
-          </li>
-        
-          <li>
-            <a href="/2024/04/21/%E7%BC%96%E7%A0%81/">编码</a>
-          </li>
-        
-          <li>
-            <a href="/2024/04/21/hello-world/">Hello World</a>
-          </li>
-        
-      </ul>
-    </div>
-  </div>
-
-  
-</aside>
-        
-      </div>
-      <footer id="footer">
-  
-  <div class="outer">
-    <div id="footer-info" class="inner">
-      
-      &copy; 2024 John Doe<br>
-      Powered by <a href="https://hexo.io/" target="_blank">Hexo</a>
-    </div>
-  </div>
-</footer>
-
-    </div>
-    <nav id="mobile-nav">
-  
-    <a href="/" class="mobile-nav-link">Home</a>
-  
-    <a href="/archives" class="mobile-nav-link">Archives</a>
-  
-</nav>
-    
-
-
-<script src="/js/jquery-3.6.4.min.js"></script>
-
-
-
-  
-<script src="/fancybox/jquery.fancybox.min.js"></script>
-
-
-
-
-<script src="/js/script.js"></script>
-
-
-
-
-
-  </div>
-</body>
-</html>
+        <h3 id="敲击码（Tap-code）"   >
+          <a href="#敲击码（Tap-code）" class="heading-link"><i class="fas fa-link"></i></a><a href="#敲击码（Tap-code）" class="headerlink" title="敲击码（Tap code）"></a>敲击码（Tap code）</h3>
+      <p>基于5 x 5方格波利比奥斯方阵来实现的，不同点是用K字母被整合到C中。 </p>
+</div><footer class="post-footer"><div class="post-ending ending"><div class="ending__text">------ 本文结束，感谢您的阅读 ------</div></div><div class="post-copyright copyright"><div class="copyright-author"><span class="copyright-author__name">本文作者: </span><span class="copyright-author__value"><a href="http://example.com">zxh</a></span></div><div class="copyright-link"><span class="copyright-link__name">本文链接: </span><span class="copyright-link__value"><a href="http://example.com/2024/04/21/%E7%BC%96%E7%A0%81/">http://example.com/2024/04/21/%E7%BC%96%E7%A0%81/</a></span></div><div class="copyright-notice"><span class="copyright-notice__name">版权声明: </span><span class="copyright-notice__value">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en" rel="external nofollow" target="_blank">BY-NC-SA</a> 许可协议。转载请注明出处！</span></div></div><nav class="post-paginator paginator"><div class="paginator-prev"><a class="paginator-prev__link" href="/2024/04/21/%E5%AE%89%E8%A3%85hexo%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%9A%84%E6%B5%81%E7%A8%8B/"><span class="paginator-prev__icon"><i class="fas fa-angle-left"></i></span><span class="paginator-prev__text">安装hexo个人博客的流程</span></a></div><div class="paginator-next"><a class="paginator-next__link" href="/2024/04/21/hello-world/"><span class="paginator-prev__text">Hello World</span><span class="paginator-next__icon"><i class="fas fa-angle-right"></i></span></a></div></nav></footer></div></div></div><div class="sidebar-wrap" id="sidebar-wrap"><aside class="sidebar" id="sidebar"><div class="sidebar-nav"><span class="sidebar-nav-toc current">文章目录</span><span class="sidebar-nav-ov">站点概览</span></div><section class="sidebar-toc"><ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%B8%B8%E8%A7%81%E7%BC%96%E7%A0%81"><span class="toc-number">1.</span> <span class="toc-text">
+          常见编码</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Base%E5%AE%B6%E6%97%8F"><span class="toc-number">1.1.</span> <span class="toc-text">
+          Base家族</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%91%A9%E5%B0%94%E6%96%AF%E7%94%B5%E7%A0%81"><span class="toc-number">1.2.</span> <span class="toc-text">
+          摩尔斯电码</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Url%E7%BC%96%E7%A0%81"><span class="toc-number">1.3.</span> <span class="toc-text">
+          Url编码</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#JSFuck"><span class="toc-number">1.4.</span> <span class="toc-text">
+          JSFuck</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#AAEncode"><span class="toc-number">1.5.</span> <span class="toc-text">
+          AAEncode</span></a><ol class="toc-child"><li class="toc-item toc-level-5"><a class="toc-link" href="#%E4%BB%80%E4%B9%88%E6%98%AFAAEncode%EF%BC%9F"><span class="toc-number">1.5.0.1.</span> <span class="toc-text">
+          什么是AAEncode？</span></a></li></ol></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#XXEncode"><span class="toc-number">1.6.</span> <span class="toc-text">
+          XXEncode</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#shellcode%E7%BC%96%E7%A0%81"><span class="toc-number">1.7.</span> <span class="toc-text">
+          shellcode编码</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%95%B2%E5%87%BB%E7%A0%81%EF%BC%88Tap-code%EF%BC%89"><span class="toc-number">1.8.</span> <span class="toc-text">
+          敲击码（Tap code）</span></a></li></ol></li></ol></section><!-- ov = overview--><section class="sidebar-ov hide"><div class="sidebar-ov-author"><div class="sidebar-ov-author__avatar"><img class="sidebar-ov-author__avatar_img" src="/images/icons/stun-logo.svg" alt="avatar"></div><p class="sidebar-ov-author__text">Hello Stun</p></div><div class="sidebar-ov-state"><a class="sidebar-ov-state-item sidebar-ov-state-item--posts" href="/archives/"><div class="sidebar-ov-state-item__count">3</div><div class="sidebar-ov-state-item__name">归档</div></a></div><div class="sidebar-ov-cc"><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en" target="_blank" rel="noopener" data-popover="知识共享许可协议" data-popover-pos="up"><img src="/images/cc-by-nc-sa.svg"></a></div></section><div class="sidebar-reading"><div class="sidebar-reading-info"><span class="sidebar-reading-info__text">你已阅读了 </span><span class="sidebar-reading-info__num">0</span><span class="sidebar-reading-info__perc">%</span></div><div class="sidebar-reading-line"></div></div></aside></div><div class="clearfix"></div></div></main><footer class="footer" id="footer"><div class="footer-inner"><div><span>Copyright © 2024</span><span class="footer__icon"><i class="fas fa-heart"></i></span><span>zxh</span></div><div><span>由 <a href="http://hexo.io/" title="Hexo" target="_blank" rel="noopener">Hexo</a> 强力驱动</span><span> v7.2.0</span><span class="footer__devider">|</span><span>主题 - <a href="https://github.com/liuyib/hexo-theme-stun/" title="Stun" target="_blank" rel="noopener">Stun</a></span><span> v2.8.0</span></div></div></footer><div class="loading-bar" id="loading-bar"><div class="loading-bar__progress"></div></div><div class="back2top" id="back2top"><span class="back2top__icon"><i class="fas fa-rocket"></i></span></div></div><script src="https://cdn.jsdelivr.net/npm/jquery@v3.4.1/dist/jquery.min.js"></script><script src="https://cdn.jsdelivr.net/npm/velocity-animate@1.5.2/velocity.min.js"></script><script src="https://cdn.jsdelivr.net/npm/velocity-animate@1.5.2/velocity.ui.min.js"></script><script src="/js/utils.js?v=2.8.0"></script><script src="/js/stun-boot.js?v=2.8.0"></script><script src="/js/scroll.js?v=2.8.0"></script><script src="/js/header.js?v=2.8.0"></script><script src="/js/sidebar.js?v=2.8.0"></script></body></html>

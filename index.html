@@ -1,175 +1,101 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <meta charset="utf-8">
-  
-  
-  <title>Hexo</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta property="og:type" content="website">
-<meta property="og:title" content="Hexo">
+<!DOCTYPE html><html lang="zh-CN"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="format-detection" content="telephone=no"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black"><link rel="icon" href="/images/icons/favicon-16x16.png?v=2.8.0" type="image/png" sizes="16x16"><link rel="icon" href="/images/icons/favicon-32x32.png?v=2.8.0" type="image/png" sizes="32x32"><meta property="og:type" content="website">
+<meta property="og:title" content="myblog">
 <meta property="og:url" content="http://example.com/index.html">
-<meta property="og:site_name" content="Hexo">
-<meta property="og:locale" content="en_US">
-<meta property="article:author" content="John Doe">
-<meta name="twitter:card" content="summary">
-  
-    <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
-  
-  
-    <link rel="shortcut icon" href="/favicon.png">
-  
-  
-  
-<link rel="stylesheet" href="/css/style.css">
+<meta property="og:site_name" content="myblog">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:author" content="zxh">
+<meta name="twitter:card" content="summary"><title>myblog</title><link ref="canonical" href="http://example.com/index.html"><link rel="dns-prefetch" href="https://cdn.jsdelivr.net"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.12.1/css/all.min.css" type="text/css"><link rel="stylesheet" href="/css/index.css?v=2.8.0"><link rel="stylesheet" href="css/custom.css"><script>var Stun = window.Stun || {};
+var CONFIG = {
+  root: '/',
+  algolia: undefined,
+  assistSearch: undefined,
+  fontIcon: {"prompt":{"success":"fas fa-check-circle","info":"fas fa-arrow-circle-right","warning":"fas fa-exclamation-circle","error":"fas fa-times-circle"},"copyBtn":"fas fa-copy"},
+  sidebar: {"offsetTop":"20px","tocMaxDepth":6},
+  header: {"enable":true,"showOnPost":true,"scrollDownIcon":false},
+  postWidget: {"endText":true},
+  nightMode: {"enable":true},
+  back2top: {"enable":true},
+  codeblock: {"style":"default","highlight":"light","wordWrap":false},
+  reward: false,
+  fancybox: false,
+  zoomImage: {"gapAside":"20px"},
+  galleryWaterfall: undefined,
+  lazyload: false,
+  pjax: undefined,
+  externalLink: {"icon":{"enable":true,"name":"fas fa-external-link-alt"}},
+  shortcuts: undefined,
+  prompt: {"copyButton":"复制","copySuccess":"复制成功","copyError":"复制失败"},
+  sourcePath: {"js":"js","css":"css","images":"images"},
+};
 
-  
-    
-<link rel="stylesheet" href="/fancybox/jquery.fancybox.min.css">
-
-  
-  
-<meta name="generator" content="Hexo 7.2.0"></head>
-
-<body>
-  <div id="container">
-    <div id="wrap">
-      <header id="header">
-  <div id="banner"></div>
-  <div id="header-outer" class="outer">
-    <div id="header-title" class="inner">
-      <h1 id="logo-wrap">
-        <a href="/" id="logo">Hexo</a>
-      </h1>
+window.CONFIG = CONFIG;</script><meta name="generator" content="Hexo 7.2.0"></head><body><div class="container" id="container"><header class="header" id="header"><div class="header-inner"><nav class="header-nav header-nav--fixed"><div class="header-nav-inner"><div class="header-nav-menubtn"><i class="fas fa-bars"></i></div><div class="header-nav-menu"><div class="header-nav-menu-item"><a class="header-nav-menu-item__link" href="/"><span class="header-nav-menu-item__icon"><i class="fas fa-home"></i></span><span class="header-nav-menu-item__text">首页</span></a></div><div class="header-nav-menu-item"><a class="header-nav-menu-item__link" href="/archives/"><span class="header-nav-menu-item__icon"><i class="fas fa-folder-open"></i></span><span class="header-nav-menu-item__text">归档</span></a></div></div><div class="header-nav-mode"><div class="mode"><div class="mode-track"><span class="mode-track-moon"></span><span class="mode-track-sun"></span></div><div class="mode-thumb"></div></div></div></div></nav><div class="header-banner"><div class="header-banner-info"><div class="header-banner-info__title">Hello Stun</div><div class="header-banner-info__subtitle">An elegant theme for Hexo</div></div></div></div></header><main class="main" id="main"><div class="main-inner"><div class="content-wrap" id="content-wrap"><div class="content content-home" id="content"><section class="postlist"><article class="postlist-item post"><header class="post-header"><h1 class="post-title"><a class="post-title__link" href="/2024/04/21/%E5%AE%89%E8%A3%85hexo%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%9A%84%E6%B5%81%E7%A8%8B/">安装hexo个人博客的流程</a></h1><div class="post-meta"><span class="post-meta-item post-meta-item--createtime"><span class="post-meta-item__icon"><i class="far fa-calendar-plus"></i></span><span class="post-meta-item__info">发表于</span><span class="post-meta-item__value">2024-04-21</span></span><span class="post-meta-item post-meta-item--updatetime"><span class="post-meta-item__icon"><i class="far fa-calendar-check"></i></span><span class="post-meta-item__info">更新于</span><span class="post-meta-item__value">2024-04-21</span></span></div></header><div class="post-body"><div class="post-excerpt">
+        <h2 id="环境配置"   >
+          <a href="#环境配置" class="heading-link"><i class="fas fa-link"></i></a><a href="#环境配置" class="headerlink" title="环境配置"></a>环境配置</h2>
       
-    </div>
-    <div id="header-inner" class="inner">
-      <nav id="main-nav">
-        <a id="main-nav-toggle" class="nav-icon"><span class="fa fa-bars"></span></a>
-        
-          <a class="main-nav-link" href="/">Home</a>
-        
-          <a class="main-nav-link" href="/archives">Archives</a>
-        
-      </nav>
-      <nav id="sub-nav">
-        
-        
-          <a class="nav-icon" href="/atom.xml" title="RSS Feed"><span class="fa fa-rss"></span></a>
-        
-        <a class="nav-icon nav-search-btn" title="Search"><span class="fa fa-search"></span></a>
-      </nav>
-      <div id="search-form-wrap">
-        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://example.com"></form>
-      </div>
-    </div>
-  </div>
-</header>
-
-      <div class="outer">
-        <section id="main">
-  
-    <article id="post-安装hexo个人博客的流程" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
-  <div class="article-meta">
-    <a href="/2024/04/21/%E5%AE%89%E8%A3%85hexo%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%9A%84%E6%B5%81%E7%A8%8B/" class="article-date">
-  <time class="dt-published" datetime="2024-04-21T15:03:50.000Z" itemprop="datePublished">2024-04-21</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="p-name article-title" href="/2024/04/21/%E5%AE%89%E8%A3%85hexo%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%9A%84%E6%B5%81%E7%A8%8B/">安装hexo个人博客的流程</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="e-content article-entry" itemprop="articleBody">
+        <h3 id="安装Git"   >
+          <a href="#安装Git" class="heading-link"><i class="fas fa-link"></i></a><a href="#安装Git" class="headerlink" title="安装Git"></a>安装Git</h3>
       
-        <h2 id="环境配置"><a href="#环境配置" class="headerlink" title="环境配置"></a>环境配置</h2><h3 id="安装Git"><a href="#安装Git" class="headerlink" title="安装Git"></a>安装Git</h3><h3 id="安装-Node-js"><a href="#安装-Node-js" class="headerlink" title="安装 Node.js"></a>安装 Node.js</h3><h3 id="安装Hexo"><a href="#安装Hexo" class="headerlink" title="安装Hexo"></a>安装Hexo</h3><ul>
+        <h3 id="安装-Node-js"   >
+          <a href="#安装-Node-js" class="heading-link"><i class="fas fa-link"></i></a><a href="#安装-Node-js" class="headerlink" title="安装 Node.js"></a>安装 Node.js</h3>
+      
+        <h3 id="安装Hexo"   >
+          <a href="#安装Hexo" class="heading-link"><i class="fas fa-link"></i></a><a href="#安装Hexo" class="headerlink" title="安装Hexo"></a>安装Hexo</h3>
+      <ul>
 <li>安装hexo，输入命令</li>
 </ul>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cnpm install -g hexo-cli</span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><div class="table-container"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cnpm install -g hexo-cli</span><br></pre></td></tr></table></div></figure>
 
 <ul>
 <li>初始化Hexo</li>
 </ul>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo init</span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><div class="table-container"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo init</span><br></pre></td></tr></table></div></figure>
 
 <p>成功后会显示许多文件夹</p>
-<h3 id="注册github，创建仓库"><a href="#注册github，创建仓库" class="headerlink" title="注册github，创建仓库"></a>注册github，创建仓库</h3><p>Repository name中的取名格式为：用户名.github.io（以后访问的路径）</p>
+
+        <h3 id="注册github，创建仓库"   >
+          <a href="#注册github，创建仓库" class="heading-link"><i class="fas fa-link"></i></a><a href="#注册github，创建仓库" class="headerlink" title="注册github，创建仓库"></a>注册github，创建仓库</h3>
+      <p>Repository name中的取名格式为：用户名.github.io（以后访问的路径）</p>
 <p>选择Public、Add a README file。</p>
-<h4 id="注意：设置ssh"><a href="#注意：设置ssh" class="headerlink" title="注意：设置ssh"></a><strong>注意：</strong>设置ssh</h4><p>在.ssh文件中，在git下，输入命令</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ssh-keygen -t rsa -C ‘注册时的邮箱地址’</span><br></pre></td></tr></table></figure>
+
+        <h4 id="注意：设置ssh"   >
+          <a href="#注意：设置ssh" class="heading-link"><i class="fas fa-link"></i></a><a href="#注意：设置ssh" class="headerlink" title="注意：设置ssh"></a><strong>注意：</strong>设置ssh</h4>
+      <p>在.ssh文件中，在git下，输入命令</p>
+<figure class="highlight plaintext"><div class="table-container"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ssh-keygen -t rsa -C ‘注册时的邮箱地址’</span><br></pre></td></tr></table></div></figure>
 
 <p>用记事本打开id_rsa.put生成的key，并配置到Github中：</p>
 <p>【Settings】→【SSH and GPG keys】→【New SSH key】</p>
 <p>验证：</p>
-<p>输入命令（git）：ssh -T <a href="mailto:&#103;&#105;&#116;&#x40;&#x67;&#105;&#116;&#104;&#117;&#98;&#46;&#x63;&#111;&#x6d;">&#103;&#105;&#116;&#x40;&#x67;&#105;&#116;&#104;&#117;&#98;&#46;&#x63;&#111;&#x6d;</a> 并且输入yes之后，行末尾会显示你的用户名（绑定成功邮箱会收到邮件提醒）</p>
+<p>输入命令（git）：ssh -T <span class="exturl"><a class="exturl__link"   href="mailto:&#x67;&#x69;&#x74;&#64;&#x67;&#105;&#116;&#104;&#x75;&#98;&#x2e;&#99;&#111;&#x6d;" >&#x67;&#x69;&#x74;&#64;&#x67;&#105;&#116;&#104;&#x75;&#98;&#x2e;&#99;&#111;&#x6d;</a><span class="exturl__icon"><i class="fas fa-external-link-alt"></i></span></span> 并且输入yes之后，行末尾会显示你的用户名（绑定成功邮箱会收到邮件提醒）</p>
 <p>绑定与Github的用户名和邮箱（git）</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git config --global user.name &quot;注册时用户名&quot;</span><br><span class="line">git config --global user.email &quot;注册时邮箱&quot;</span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><div class="table-container"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git config --global user.name &quot;注册时用户名&quot;</span><br><span class="line">git config --global user.email &quot;注册时邮箱&quot;</span><br></pre></td></tr></table></div></figure>
 
-<h2 id="上传博客"><a href="#上传博客" class="headerlink" title="上传博客"></a>上传博客</h2><p>在创建的文件下，存在_config.yml</p>
+
+        <h2 id="上传博客"   >
+          <a href="#上传博客" class="heading-link"><i class="fas fa-link"></i></a><a href="#上传博客" class="headerlink" title="上传博客"></a>上传博客</h2>
+      <p>在创建的文件下，存在_config.yml</p>
 <p>打开后，修改</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">deploy:</span><br><span class="line">        type: git</span><br><span class="line">        repo: git@github.com:用户名/用户名.github.io.git</span><br><span class="line">        branch: main</span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><div class="table-container"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">deploy:</span><br><span class="line">        type: git</span><br><span class="line">        repo: git@github.com:用户名/用户名.github.io.git</span><br><span class="line">        branch: main</span><br></pre></td></tr></table></div></figure>
 
 <p>新建文章：</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">输入命令：hexo new “文章名称”</span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><div class="table-container"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">输入命令：hexo new “文章名称”</span><br></pre></td></tr></table></div></figure>
 
 <p>预览：</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">输入命令（blog目录下使用git）：hexo s</span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><div class="table-container"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">输入命令（blog目录下使用git）：hexo s</span><br></pre></td></tr></table></div></figure>
 
 <p>确认无误后先生成一遍文件:</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">输入命令（blog目录下使用git）：hexo g</span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><div class="table-container"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">输入命令（blog目录下使用git）：hexo g</span><br></pre></td></tr></table></div></figure>
 
 <p>之后即可部署到GitHub</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">输入命令（blog目录下使用git）：hexo d</span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><div class="table-container"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">输入命令（blog目录下使用git）：hexo d</span><br></pre></td></tr></table></div></figure>
 
 <p><strong>之后博客的网址为：用户名.github.io</strong></p>
-
+</div></div></article><article class="postlist-item post"><header class="post-header"><h1 class="post-title"><a class="post-title__link" href="/2024/04/21/%E7%BC%96%E7%A0%81/">编码</a></h1><div class="post-meta"><span class="post-meta-item post-meta-item--createtime"><span class="post-meta-item__icon"><i class="far fa-calendar-plus"></i></span><span class="post-meta-item__info">发表于</span><span class="post-meta-item__value">2024-04-21</span></span><span class="post-meta-item post-meta-item--updatetime"><span class="post-meta-item__icon"><i class="far fa-calendar-check"></i></span><span class="post-meta-item__info">更新于</span><span class="post-meta-item__value">2024-04-21</span></span></div></header><div class="post-body"><div class="post-excerpt">
+        <h2 id="常见编码"   >
+          <a href="#常见编码" class="heading-link"><i class="fas fa-link"></i></a><a href="#常见编码" class="headerlink" title="常见编码"></a>常见编码</h2>
       
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://example.com/2024/04/21/%E5%AE%89%E8%A3%85hexo%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%9A%84%E6%B5%81%E7%A8%8B/" data-id="clv9ns5qe000018vy3xka2f4e" data-title="安装hexo个人博客的流程" class="article-share-link"><span class="fa fa-share">Share</span></a>
-      
-      
-      
-    </footer>
-  </div>
-  
-</article>
-
-
-
-  
-    <article id="post-编码" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
-  <div class="article-meta">
-    <a href="/2024/04/21/%E7%BC%96%E7%A0%81/" class="article-date">
-  <time class="dt-published" datetime="2024-04-21T14:31:20.000Z" itemprop="datePublished">2024-04-21</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="p-name article-title" href="/2024/04/21/%E7%BC%96%E7%A0%81/">编码</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="e-content article-entry" itemprop="articleBody">
-      
-        <h2 id="常见编码"><a href="#常见编码" class="headerlink" title="常见编码"></a>常见编码</h2><h3 id="Base家族"><a href="#Base家族" class="headerlink" title="Base家族"></a>Base家族</h3><p>base系列的编码是以编码数量的划分</p>
+        <h3 id="Base家族"   >
+          <a href="#Base家族" class="heading-link"><i class="fas fa-link"></i></a><a href="#Base家族" class="headerlink" title="Base家族"></a>Base家族</h3>
+      <p>base系列的编码是以编码数量的划分</p>
 <ul>
 <li>Base64编码要求把3个8位字节转化为4个6位字节，之后在6位的前面补两个0，形成8位-字节的形式</li>
 </ul>
@@ -191,7 +117,10 @@
 </ul>
 </li>
 </ul>
-<h3 id="摩尔斯电码"><a href="#摩尔斯电码" class="headerlink" title="摩尔斯电码"></a>摩尔斯电码</h3><p>莫尔斯电码主要由以下5种它的代码组成：</p>
+
+        <h3 id="摩尔斯电码"   >
+          <a href="#摩尔斯电码" class="heading-link"><i class="fas fa-link"></i></a><a href="#摩尔斯电码" class="headerlink" title="摩尔斯电码"></a>摩尔斯电码</h3>
+      <p>莫尔斯电码主要由以下5种它的代码组成：</p>
 <ul>
 <li>点（.）</li>
 <li>划（-）</li>
@@ -199,16 +128,34 @@
 <li>每个词之间中等的停顿（通常用&#x2F;划分）</li>
 <li>以及句子之间长的停顿</li>
 </ul>
-<h3 id="Url编码"><a href="#Url编码" class="headerlink" title="Url编码"></a>Url编码</h3><p>​	URL地址规定了常用的数字，字母可以直接使用，另外一批作为特殊用户字符也可以直接用（&#x2F;,:@等），剩下的其他所有字符必须通过%xx编码处理。</p>
-<h3 id="JSFuck"><a href="#JSFuck" class="headerlink" title="JSFuck"></a>JSFuck</h3><p>​	jsfuck源于一门编程语言brainfuck，其中主要思想就是只使用8种特定的符号来编写代码。而jsfuck也是沿用了这个思想，它仅仅使用6种符号来编写代码。它们分别是（、）、+、[、]、！。</p>
-<h3 id="AAEncode"><a href="#AAEncode" class="headerlink" title="AAEncode"></a>AAEncode</h3><h5 id="什么是AAEncode？"><a href="#什么是AAEncode？" class="headerlink" title="什么是AAEncode？"></a>什么是AAEncode？</h5><p>​	AAEncode是js加密的一种编码，可以把文字加密成表情包，例如“</p>
-<h3 id="XXEncode"><a href="#XXEncode" class="headerlink" title="XXEncode"></a>XXEncode</h3><ul>
+
+        <h3 id="Url编码"   >
+          <a href="#Url编码" class="heading-link"><i class="fas fa-link"></i></a><a href="#Url编码" class="headerlink" title="Url编码"></a>Url编码</h3>
+      <p>​	URL地址规定了常用的数字，字母可以直接使用，另外一批作为特殊用户字符也可以直接用（&#x2F;,:@等），剩下的其他所有字符必须通过%xx编码处理。</p>
+
+        <h3 id="JSFuck"   >
+          <a href="#JSFuck" class="heading-link"><i class="fas fa-link"></i></a><a href="#JSFuck" class="headerlink" title="JSFuck"></a>JSFuck</h3>
+      <p>​	jsfuck源于一门编程语言brainfuck，其中主要思想就是只使用8种特定的符号来编写代码。而jsfuck也是沿用了这个思想，它仅仅使用6种符号来编写代码。它们分别是（、）、+、[、]、！。</p>
+
+        <h3 id="AAEncode"   >
+          <a href="#AAEncode" class="heading-link"><i class="fas fa-link"></i></a><a href="#AAEncode" class="headerlink" title="AAEncode"></a>AAEncode</h3>
+      
+        <h5 id="什么是AAEncode？"   >
+          <a href="#什么是AAEncode？" class="heading-link"><i class="fas fa-link"></i></a><a href="#什么是AAEncode？" class="headerlink" title="什么是AAEncode？"></a>什么是AAEncode？</h5>
+      <p>​	AAEncode是js加密的一种编码，可以把文字加密成表情包，例如“</p>
+
+        <h3 id="XXEncode"   >
+          <a href="#XXEncode" class="heading-link"><i class="fas fa-link"></i></a><a href="#XXEncode" class="headerlink" title="XXEncode"></a>XXEncode</h3>
+      <ul>
 <li>XXencode将输入文本以三个字节为单位进行编码</li>
 <li>如果最后剩下的资料少于三个字节，不够的部分用零补齐</li>
 <li>这三个字节共有24个Bit，以6bit为单位分为4个组，每个组以十进制来表示所出现的数值只会落在0到63之间。以所对应值的位置字符代替。它所选择的可打印字符一共64个字符。</li>
 <li>根base64打印字符相比，就是XXencode多了一个”-“字符，少一个”&#x2F;“</li>
 </ul>
-<h3 id="shellcode编码"><a href="#shellcode编码" class="headerlink" title="shellcode编码"></a>shellcode编码</h3><ul>
+
+        <h3 id="shellcode编码"   >
+          <a href="#shellcode编码" class="heading-link"><i class="fas fa-link"></i></a><a href="#shellcode编码" class="headerlink" title="shellcode编码"></a>shellcode编码</h3>
+      <ul>
 <li>shellcode是一段利用软件漏洞而执行的代码，shellcode为”16进制“的机器码(每个字符的16进制前加一个“&#x2F;”)</li>
 <li>shellcode可以按照攻击者执行的位置分为本地shellcode和远程shellcode<ul>
 <li>本地：本地运行的shellcode经常用于利用软件漏洞提升权限。比如在LInux下由普通权限提升至root权限</li>
@@ -216,162 +163,36 @@
 </ul>
 </li>
 </ul>
-<h3 id="敲击码（Tap-code）"><a href="#敲击码（Tap-code）" class="headerlink" title="敲击码（Tap code）"></a>敲击码（Tap code）</h3><p>基于5 x 5方格波利比奥斯方阵来实现的，不同点是用K字母被整合到C中。 </p>
 
+        <h3 id="敲击码（Tap-code）"   >
+          <a href="#敲击码（Tap-code）" class="heading-link"><i class="fas fa-link"></i></a><a href="#敲击码（Tap-code）" class="headerlink" title="敲击码（Tap code）"></a>敲击码（Tap code）</h3>
+      <p>基于5 x 5方格波利比奥斯方阵来实现的，不同点是用K字母被整合到C中。 </p>
+</div></div></article><article class="postlist-item post"><header class="post-header"><h1 class="post-title"><a class="post-title__link" href="/2024/04/21/hello-world/">Hello World</a></h1><div class="post-meta"><span class="post-meta-item post-meta-item--createtime"><span class="post-meta-item__icon"><i class="far fa-calendar-plus"></i></span><span class="post-meta-item__info">发表于</span><span class="post-meta-item__value">2024-04-21</span></span><span class="post-meta-item post-meta-item--updatetime"><span class="post-meta-item__icon"><i class="far fa-calendar-check"></i></span><span class="post-meta-item__info">更新于</span><span class="post-meta-item__value">2024-04-21</span></span></div></header><div class="post-body"><div class="post-excerpt"><p>Welcome to <span class="exturl"><a class="exturl__link"   target="_blank" rel="noopener" href="https://hexo.io/" >Hexo</a><span class="exturl__icon"><i class="fas fa-external-link-alt"></i></span></span>! This is your very first post. Check <span class="exturl"><a class="exturl__link"   target="_blank" rel="noopener" href="https://hexo.io/docs/" >documentation</a><span class="exturl__icon"><i class="fas fa-external-link-alt"></i></span></span> for more info. If you get any problems when using Hexo, you can find the answer in <span class="exturl"><a class="exturl__link"   target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html" >troubleshooting</a><span class="exturl__icon"><i class="fas fa-external-link-alt"></i></span></span> or you can ask me on <span class="exturl"><a class="exturl__link"   target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues" >GitHub</a><span class="exturl__icon"><i class="fas fa-external-link-alt"></i></span></span>.</p>
+
+        <h2 id="Quick-Start"   >
+          <a href="#Quick-Start" class="heading-link"><i class="fas fa-link"></i></a><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2>
       
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://example.com/2024/04/21/%E7%BC%96%E7%A0%81/" data-id="clv9mmf470000h4vy2lz533hx" data-title="编码" class="article-share-link"><span class="fa fa-share">Share</span></a>
-      
-      
-      
-    </footer>
-  </div>
-  
-</article>
+        <h3 id="Create-a-new-post"   >
+          <a href="#Create-a-new-post" class="heading-link"><i class="fas fa-link"></i></a><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3>
+      <figure class="highlight bash"><div class="table-container"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></div></figure>
 
+<p>More info: <span class="exturl"><a class="exturl__link"   target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html" >Writing</a><span class="exturl__icon"><i class="fas fa-external-link-alt"></i></span></span></p>
 
+        <h3 id="Run-server"   >
+          <a href="#Run-server" class="heading-link"><i class="fas fa-link"></i></a><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3>
+      <figure class="highlight bash"><div class="table-container"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></div></figure>
 
-  
-    <article id="post-hello-world" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
-  <div class="article-meta">
-    <a href="/2024/04/21/hello-world/" class="article-date">
-  <time class="dt-published" datetime="2024-04-21T14:23:06.754Z" itemprop="datePublished">2024-04-21</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="p-name article-title" href="/2024/04/21/hello-world/">Hello World</a>
-    </h1>
-  
+<p>More info: <span class="exturl"><a class="exturl__link"   target="_blank" rel="noopener" href="https://hexo.io/docs/server.html" >Server</a><span class="exturl__icon"><i class="fas fa-external-link-alt"></i></span></span></p>
 
-      </header>
-    
-    <div class="e-content article-entry" itemprop="articleBody">
-      
-        <p>Welcome to <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a target="_blank" rel="noopener" href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+        <h3 id="Generate-static-files"   >
+          <a href="#Generate-static-files" class="heading-link"><i class="fas fa-link"></i></a><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3>
+      <figure class="highlight bash"><div class="table-container"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></div></figure>
 
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+<p>More info: <span class="exturl"><a class="exturl__link"   target="_blank" rel="noopener" href="https://hexo.io/docs/generating.html" >Generating</a><span class="exturl__icon"><i class="fas fa-external-link-alt"></i></span></span></p>
 
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+        <h3 id="Deploy-to-remote-sites"   >
+          <a href="#Deploy-to-remote-sites" class="heading-link"><i class="fas fa-link"></i></a><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3>
+      <figure class="highlight bash"><div class="table-container"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></div></figure>
 
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://example.com/2024/04/21/hello-world/" data-id="clv9mfofe0000hcvyergl0zmq" data-title="Hello World" class="article-share-link"><span class="fa fa-share">Share</span></a>
-      
-      
-      
-    </footer>
-  </div>
-  
-</article>
-
-
-
-  
-
-
-</section>
-        
-          <aside id="sidebar">
-  
-    
-
-  
-    
-
-  
-    
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">Archives</h3>
-    <div class="widget">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2024/04/">April 2024</a></li></ul>
-    </div>
-  </div>
-
-
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">Recent Posts</h3>
-    <div class="widget">
-      <ul>
-        
-          <li>
-            <a href="/2024/04/21/%E5%AE%89%E8%A3%85hexo%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%9A%84%E6%B5%81%E7%A8%8B/">安装hexo个人博客的流程</a>
-          </li>
-        
-          <li>
-            <a href="/2024/04/21/%E7%BC%96%E7%A0%81/">编码</a>
-          </li>
-        
-          <li>
-            <a href="/2024/04/21/hello-world/">Hello World</a>
-          </li>
-        
-      </ul>
-    </div>
-  </div>
-
-  
-</aside>
-        
-      </div>
-      <footer id="footer">
-  
-  <div class="outer">
-    <div id="footer-info" class="inner">
-      
-      &copy; 2024 John Doe<br>
-      Powered by <a href="https://hexo.io/" target="_blank">Hexo</a>
-    </div>
-  </div>
-</footer>
-
-    </div>
-    <nav id="mobile-nav">
-  
-    <a href="/" class="mobile-nav-link">Home</a>
-  
-    <a href="/archives" class="mobile-nav-link">Archives</a>
-  
-</nav>
-    
-
-
-<script src="/js/jquery-3.6.4.min.js"></script>
-
-
-
-  
-<script src="/fancybox/jquery.fancybox.min.js"></script>
-
-
-
-
-<script src="/js/script.js"></script>
-
-
-
-
-
-  </div>
-</body>
-</html>
+<p>More info: <span class="exturl"><a class="exturl__link"   target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html" >Deployment</a><span class="exturl__icon"><i class="fas fa-external-link-alt"></i></span></span></p>
+</div></div></article></section><nav class="paginator"><div class="paginator-inner"><span class="page-number current">1</span></div></nav></div></div><div class="sidebar-wrap" id="sidebar-wrap"><aside class="sidebar" id="sidebar"><section class="sidebar-toc hide"></section><!-- ov = overview--><section class="sidebar-ov"><div class="sidebar-ov-author"><div class="sidebar-ov-author__avatar"><img class="sidebar-ov-author__avatar_img" src="/images/icons/stun-logo.svg" alt="avatar"></div><p class="sidebar-ov-author__text">Hello Stun</p></div><div class="sidebar-ov-state"><a class="sidebar-ov-state-item sidebar-ov-state-item--posts" href="/archives/"><div class="sidebar-ov-state-item__count">3</div><div class="sidebar-ov-state-item__name">归档</div></a></div><div class="sidebar-ov-cc"><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en" target="_blank" rel="noopener" data-popover="知识共享许可协议" data-popover-pos="up"><img src="/images/cc-by-nc-sa.svg"></a></div></section></aside></div><div class="clearfix"></div></div></main><footer class="footer" id="footer"><div class="footer-inner"><div><span>Copyright © 2024</span><span class="footer__icon"><i class="fas fa-heart"></i></span><span>zxh</span></div><div><span>由 <a href="http://hexo.io/" title="Hexo" target="_blank" rel="noopener">Hexo</a> 强力驱动</span><span> v7.2.0</span><span class="footer__devider">|</span><span>主题 - <a href="https://github.com/liuyib/hexo-theme-stun/" title="Stun" target="_blank" rel="noopener">Stun</a></span><span> v2.8.0</span></div></div></footer><div class="loading-bar" id="loading-bar"><div class="loading-bar__progress"></div></div><div class="back2top" id="back2top"><span class="back2top__icon"><i class="fas fa-rocket"></i></span></div></div><script src="https://cdn.jsdelivr.net/npm/jquery@v3.4.1/dist/jquery.min.js"></script><script src="https://cdn.jsdelivr.net/npm/velocity-animate@1.5.2/velocity.min.js"></script><script src="https://cdn.jsdelivr.net/npm/velocity-animate@1.5.2/velocity.ui.min.js"></script><script src="/js/utils.js?v=2.8.0"></script><script src="/js/stun-boot.js?v=2.8.0"></script><script src="/js/scroll.js?v=2.8.0"></script><script src="/js/header.js?v=2.8.0"></script><script src="/js/sidebar.js?v=2.8.0"></script></body></html>
